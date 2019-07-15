@@ -65,11 +65,12 @@
 
 ## Built With
 
+The following frameworks and applications were used to build ***My Data Visualizer***:
+
 * [D3.js](https://d3js.org/) - D3 framework
 * [Three.js](https://threejs.org/) - Three.js framework
 * [glTF](https://www.khronos.org/gltf/) - Khronos' graphic library Transmission Format
 * [GLTFLoader](https://threejs.org/docs/index.html#examples/loaders/GLTFLoader) - A loader for glTF 2.0 resources
-* [dat.gui](https://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage) - dat.gui
 * [Blender](https://www.blender.org/) - For building a 3D visual and [exporting](https://docs.blender.org/manual/en/dev/addons/io_gltf2.html) it to a glTF file.
 
 
