@@ -19,14 +19,20 @@
 
 ## Quick Start
 
-* To get started, you will need a .glTF or .glb file and a .csv file with the data that will be visualized.
+![Screen Shot of My Data Visualizer Body Demo](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerBodyScreenShot.png)
+
+* The quickest workflow is utilizing a glTF with visualizing data in a .csv file.  
+	* Embedded data in the glTF is another workflow discussed in detail in this doumentation.
+* To get started, you will need a .glTF (or .glb file) and a .csv file with the data that will be visualized.
 * The [documentation repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository/Tutorial) has a working example for the *Body* *DataVisual* you can use to model your own *DataVisual*. 
   It contains:
 	* The original [Blender 2.79b](https://www.blender.org/) file ([*Body.blend*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.blend)) used to export the .gltf and .glb files.
 	* [*Body.gltf*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv): a .gltf text export of the Body.blend file with [Data URIs](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#uris).
 	* [*Body.glb*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.glb): a .glb binary export of the Body.blend file.
 	* [*Body.csv*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv): a .csv file with data to *drive* the Body *DataVisual*.
-* Only the *Body.gltf* and *Body.csv* files are necessary for the Quick Start.  The Body.glb file is included as an example of a binary export.  The *Body.csv* file's data can be used to visualize either Body.gltf or Body.glb.
+* Only the *Body.gltf* and *Body.csv* files are necessary for the Quick Start.  
+	* The Body.glb file is included as an example of a binary export.  
+	* The *Body.csv* file's data can be used to visualize either Body.gltf or Body.glb.
 * As shown in the *Body* *DataVisual*, the following are the requirements for the glTF and CSV data files:
 	* glTF:
 		* Each [mesh](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) that will be visualized with the data must have a unique [*name*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#indices-and-names) attribute and [*material*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) associated with it.
