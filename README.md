@@ -48,7 +48,7 @@
 		Column | Description
 		-------|------------
 		*name* | The values in the *name* column match the glTF mesh *names*.
-		INSURANCE_CLAIMS* |  Insurance Claim values associated with the *name* attribute values.
+		*INSURANCE_CLAIMS* |  Insurance Claim values associated with the *name* attribute values.
 		*DOCTOR_VISITS*,  | Doctor visits associated with the *name* attribute value.
 		*LAB_ORDERS* |  Lab Order values associated with the *name* attribute values.
 		*DATE_LAST_TEST* | Contains the [JavaScript Date](https://www.w3schools.com/js/js_dates.asp) for the *LAST_TEST*. The '*DATE_*' prefix designates the data column as a JavaScript Date.  Other supported prefies are '*DATETIME_*' and '*TIME_*'. 
