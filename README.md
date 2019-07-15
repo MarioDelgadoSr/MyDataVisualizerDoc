@@ -40,8 +40,9 @@
 * As shown in the *Body* *DataVisual*, the following are the requirements for the glTF and CSV data files:
 	* glTF:
 		* Each [mesh](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) that will be visualized with the data must have a unique [*name*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#indices-and-names) attribute and [*material*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) associated with it.
-		* The *name* attibute value is case sensitive and matches *name* value in the data.
-		* *name* attribute values will be [sanitized](https://discourse.threejs.org/t/issue-with-gltfloader-and-objects-with-dots-in-their-name-attribute/6726/2) before a match is attempted against the data.  Example: A *name* of 'Cube.001' is sanitized to 'Cube001'.
+		* The *name* attibute value is case sensitive and matches *name* column values in the data.
+		* *name* attribute values will be [sanitized](https://discourse.threejs.org/t/issue-with-gltfloader-and-objects-with-dots-in-their-name-attribute/6726/2) before a match is attempted against the data.  
+		* Example: A *name* of 'Cube.001' is sanitized to 'Cube001'.
 	* CSV Data column descriptions:
 		* *name*: The values in the *name* column match the glTF mesh *names*.
 		* *INSURANCE_CLAIMS*, *DOCTOR_VISITS*, *LAB_ORDERS*: Contain values associated with the *name* attribute values.
