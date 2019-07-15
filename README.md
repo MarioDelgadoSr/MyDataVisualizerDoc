@@ -28,12 +28,15 @@
 * To get started, you will need a .glTF (or .glb file) and a .csv file with the data that will be visualized.
 * The [documentation repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository/Tutorial) has a working example for the *Body* *DataVisual* you can use to model your own *DataVisual*. 
   It contains:
-	* The original [Blender 2.79b](https://www.blender.org/) file ([*Body.blend*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.blend)) used to export the .gltf and .glb files.
-		* Use this file to see how a 3D visual asset is built in Blender.  
-		* [Other applications that export glTF files](https://github.com/KhronosGroup/glTF#gltf-tools) can be used as well if the [*meshes*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) visualized have distinct/unique [*materials*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) assigned to them.
-	* [*Body.gltf*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv): a .gltf text export of the Body.blend file with [Data URIs](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#uris).
-	* [*Body.glb*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.glb): a .glb binary export of the Body.blend file.
-	* [*Body.csv*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv): a .csv file with data to *drive* the Body *DataVisual*.
+  
+  		Repository File | Description
+		----------------|------------
+  
+	[*Body.blend*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.blend) | The original [Blender 2.79b](https://www.blender.org/) file used to export the .gltf and .glb files.  Use this file to see how a 3D visual asset is built in Blender.  [Other applications that export glTF files](https://github.com/KhronosGroup/glTF#gltf-tools) can be used as well if the [*meshes*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) visualized have distinct/unique [*materials*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) assigned to them.
+	[*Body.gltf*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv) |  A .gltf text export of the Body.blend file with [Data URIs](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#uris).
+	[*Body.glb*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.glb) | A .glb binary export of the Body.blend file.
+	[*Body.csv*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv) | A .csv file with data to *drive* the Body *DataVisual*.
+	
 * Only the *Body.gltf* and *Body.csv* files are necessary for the Quick Start.  
 	* The Body.glb file is included as an example of a binary export.  
 	* The *Body.csv* file's data can be used to visualize either Body.gltf or Body.glb.
@@ -45,7 +48,7 @@
 		* Example: A *name* of 'Cube.001' is sanitized to 'Cube001'.
 	* CSV Data column descriptions:
 	
-		Column | Description
+		CSV Column | Description
 		-------|------------
 		*name* | The values in the *name* column match the glTF mesh *names*.
 		*INSURANCE_CLAIMS* |  Insurance Claim values associated with the *name* attribute values.
