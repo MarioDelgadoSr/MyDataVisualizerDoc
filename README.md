@@ -8,6 +8,13 @@
 
 ## Introduction
 
+* *My Data Visualizer* is the easiest way to visualize your ***low-data-volume-high-information-value*** [WebGL](https://www.khronos.org/webgl/) 3D visuals.
+* The application implements the [DataVisual](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) design pattern.
+
+**Note**: 
+
+This documentation describes features and functionality in the free version of My Data Visualizer.  
+The full licensed version of the application and framework has additional features detailed in a separate document.
 
 ## Concepts
 
