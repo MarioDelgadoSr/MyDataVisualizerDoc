@@ -48,6 +48,14 @@
 		* The *name* attibute value is case sensitive and matches *name* column values in the data.
 		* *name* attribute values will be [sanitized](https://discourse.threejs.org/t/issue-with-gltfloader-and-objects-with-dots-in-their-name-attribute/6726/2) before a match is attempted against the data.  
 			* Example: A *name* of 'Cube.001' is sanitized to 'Cube001'; with the '.' removed from the *name*'s value.
+	* [*Body.csv*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv) Data:
+
+		name | INSURANCE_CLAIMS | DOCTOR_VISITS | LAB_ORDERS | DATE_LAST_TEST | COLOR_INSURANCE_CLAIMS | LINK_
+		-------|-------|-------|-------|-------|-------|-------
+		Brain | 27000 | 3 | 0 | 1548997200000 | green | http://www.bing.com/search?q=
+		Heart | 234000 | 11 | 6 | 1560052800000 | red | http://www.bing.com/search?q=
+		Kidneys | 14500 | 5 | 1 | 1564632000000 | yellow | http://www.bing.com/search?q=
+	
 	* [*Body.csv*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv) Data column descriptions:
 	
 		CSV Column | Description
