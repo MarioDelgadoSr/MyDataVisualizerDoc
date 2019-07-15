@@ -1,0 +1,4 @@
+name,INSURANCE_CLAIMS,DOCTOR_VISITS,LAB_ORDERS,DATE_LAST_TEST,COLOR_INSURANCE_CLAIMS,LINK_
+Brain,27000,3,0,1548997200000,green,http://www.bing.com/search?q=
+Heart,234000,11,6,1560052800000,red,http://www.bing.com/search?q=
+Kidneys,14500,5,1,1564632000000,yellow,http://www.bing.com/search?q=
