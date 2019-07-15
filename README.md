@@ -5,6 +5,9 @@
 
 * [Introduction](#Introduction)
 * [Quick Start](#Quick-Start)
+* [Built With](#Built-With)
+* [Creator](#Creator)
+* [License](#License)
 <!-- * [Concepts](#Concepts) -->
 
 ## Introduction
@@ -44,7 +47,7 @@
 		* Each [mesh](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) that will be visualized with the data must have a unique [*name*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#indices-and-names) attribute and [*material*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) associated with it.
 		* The *name* attibute value is case sensitive and matches *name* column values in the data.
 		* *name* attribute values will be [sanitized](https://discourse.threejs.org/t/issue-with-gltfloader-and-objects-with-dots-in-their-name-attribute/6726/2) before a match is attempted against the data.  
-		* Example: A *name* of 'Cube.001' is sanitized to 'Cube001'.
+			* Example: A *name* of 'Cube.001' is sanitized to 'Cube001'; with the '.' removed from the *name*'s value.
 	* CSV Data column descriptions:
 	
 		CSV Column | Description
@@ -70,16 +73,16 @@
 * [Blender](https://www.blender.org/) - For building a 3D visual and [exporting](https://docs.blender.org/manual/en/dev/addons/io_gltf2.html) it to a glTF file.
 
 
-## Author
+## Creator
 
 * **Mario Delgado**  Github: [MarioDelgadoSr](https://github.com/MarioDelgadoSr)
 * LinkedIn: [Mario Delgado](https://www.linkedin.com/in/mario-delgado-5b6195155/)
 * [My Data Visualizer](http://MyDataVisualizer.com): A data visualization application using the [*DataVisual*](https://github.com/MarioDelgadoSr/DataVisual) design pattern.
-
+* Contact [MyDataVisualizer(at)gmail.com](mailto:MyDataVisualizer@gmail.com) for details. 
 
 ## License
 
 * *My Data Visualizer* is free for all non-profit entities.  
 * Businesses and comerical enterprises must purchase a license.  
-	* The license includes access to the *My Data Visualizer* javaScript-based framework; which developers can use to embed data-driven WebGL assets in applications. 
-* Contact [MyDataVisualizer(at)gmail.com](mailto:MyDataVisualizer@gmail.com) for details. 
+	* The license includes access to the *My Data Visualizer* JavaScript-based framework; which developers can use to embed data-driven WebGL assets in their applications. 
+
