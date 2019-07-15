@@ -27,6 +27,7 @@
 
 * The quickest work-flow is utilizing a glTF with data in a .csv file.  
 	* You can use the files described here as a template for your DataVisual that are [uploaded to ***My Data Visualizer***](http://mydatavisualizer.com/demo/).
+		* Data uploaded is parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
 	* Embedded data in the glTF is another work-flow discussed in detail in this documentation.
 * To get started, you will need a .glTF (or .glb file) and a .csv file with the data that will be visualized.
 * The [documentation repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository/Tutorial) has a working example for the *Body* *DataVisual* you can use to model your own *DataVisual*s. 
