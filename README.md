@@ -4,7 +4,7 @@
 # Contents
 
 * [Introduction](#Introduction)
-* [Quick Start][#Quick Start]
+* [Quick Start](#Quick Start)
 * [Concepts](#Concepts)
 
 ## Introduction
