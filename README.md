@@ -1,17 +1,17 @@
-# My Data Visualizer Documentation (*In process of being developed*)
+# My Data Visualizer Documentation (alpha)
 
 
 # Contents
 
 * [Introduction](#Introduction)
 * [Quick Start](#Quick-Start)
-* [Concepts](#Concepts)
+<!-- * [Concepts](#Concepts) -->
 
 ## Introduction
 
 * ***My Data Visualizer*** is the easiest way to visualize your ***low-data-volume-high-information-value*** [WebGL](https://www.khronos.org/webgl/) 3D visuals.
 * The application implements the [DataVisual](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) design pattern.
-* ***My Data Visualizer** is a 100% Client-side application; your data is not uploaded to a server or the cloud.
+* ***My Data Visualizer*** is a 100% Client-side application; your data is not uploaded to a server or the cloud.
 
 **Note**: 
 
@@ -44,17 +44,18 @@
 		* *name* attribute values will be [sanitized](https://discourse.threejs.org/t/issue-with-gltfloader-and-objects-with-dots-in-their-name-attribute/6726/2) before a match is attempted against the data.  
 		* Example: A *name* of 'Cube.001' is sanitized to 'Cube001'.
 	* CSV Data column descriptions:
-		* *name*: The values in the *name* column match the glTF mesh *names*.
-		* *INSURANCE_CLAIMS*, *DOCTOR_VISITS*, *LAB_ORDERS*: Contain values associated with the *name* attribute values.
-		* *DATE_LAST_TEST*: Contains the [JavaScript Date](https://www.w3schools.com/js/js_dates.asp) for the *LAST_TEST*.  
-			* The '*DATE_*' prefix designates the data column as a JavaScript Date.  Other supported prefies are '*DATETIME_*' and '*TIME_*'. 
-		* *COLOR_INSURANCE_CLAIMS*: Contains pre-defined colors for the *INSURANCE_CLAIMS* column. 
-			* The '*COLOR_*' prefix designates the column as a pre-define color value column.    
-			* Any [CSS Color Name or Hex Color value](https://www.w3schools.com/colors/colors_names.asp) can be used to pre-define a color.
-		* *LINK_*: Contains optional HyperLinks associated with *name* column values.  
-			* At run-time, ***My Data Visualizer*** will append the *name* column value to the *LINK_* column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
+	
+		Column | Description
+		-------|------------
+		*name* | The values in the *name* column match the glTF mesh *names*.
+		INSURANCE_CLAIMS* |  Insurance Claim values associated with the *name* attribute values.
+		*DOCTOR_VISITS*,  | Doctor visits associated with the *name* attribute value.
+		*LAB_ORDERS* |  Lab Order values associated with the *name* attribute values.
+		*DATE_LAST_TEST* | Contains the [JavaScript Date](https://www.w3schools.com/js/js_dates.asp) for the *LAST_TEST*. The '*DATE_*' prefix designates the data column as a JavaScript Date.  Other supported prefies are '*DATETIME_*' and '*TIME_*'. 
+		*COLOR_INSURANCE_CLAIMS* | Contains pre-defined colors for the *INSURANCE_CLAIMS* column.  The '*COLOR_*' prefix designates the column as a pre-define color value column. Any [CSS Color Name or Hex Color value](https://www.w3schools.com/colors/colors_names.asp) can be used to pre-define a color.
+		*LINK_* | Contains optional HyperLinks associated with *name* column values. At run-time, ***My Data Visualizer*** will append the *name* column value to the *LINK_* column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
 
-## Concepts
+<!-- ## Concepts -->
 
 
 ## Built With
