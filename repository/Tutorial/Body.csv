@@ -1,4 +1,4 @@
 name,INSURANCE_CLAIMS,DOCTOR_VISITS,LAB_ORDERS,DATE_LAST_TEST,COLOR_INSURANCE_CLAIMS,LINK_
-Brain,27000,3,0,2019-02-01T00:00,green,http://www.bing.com/search?q=
+Brain,27000,3,0,2019-02-01T00:00,yellow,http://www.bing.com/search?q=
 Heart,234000,11,6,2019-06-09T00:00,red,http://www.bing.com/search?q=
-Kidneys,14500,5,1,2019-08-01T00:00,yellow,http://www.bing.com/search?q=
+Kidneys,14500,5,1,2019-08-01T00:00,green,http://www.bing.com/search?q=
