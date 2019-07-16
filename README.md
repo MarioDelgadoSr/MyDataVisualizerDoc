@@ -53,9 +53,9 @@
 
 		name | INSURANCE_CLAIMS | DOCTOR_VISITS | LAB_ORDERS | DATE_LAST_TEST | COLOR_INSURANCE_CLAIMS | LINK_
 		-------|-------|-------|-------|-------|-------|-------
-		Brain | 27000 | 3 | 0 | 1548997200000 | green | http://www.bing.com/search?q=
-		Heart | 234000 | 11 | 6 | 1560052800000 | red | http://www.bing.com/search?q=
-		Kidneys | 14500 | 5 | 1 | 1564632000000 | yellow | http://www.bing.com/search?q=
+		Brain | 27000 | 3 | 0 | 2019-02-01T00:00 | green | http://www.bing.com/search?q=
+		Heart | 234000 | 11 | 6 | 12019-06-09T00:00 | red | http://www.bing.com/search?q=
+		Kidneys | 14500 | 5 | 1 | 2019-08-01T00:00 | yellow | http://www.bing.com/search?q=
 	
 	* [*Body.csv*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv) Data column descriptions:
 	
@@ -65,7 +65,7 @@
 		*INSURANCE_CLAIMS* |  Insurance Claim values associated with the *name* attribute values.
 		*DOCTOR_VISITS*,  | Doctor visits associated with the *name* attribute value.
 		*LAB_ORDERS* |  Lab Order values associated with the *name* attribute values.
-		*DATE_LAST_TEST* | Contains the [JavaScript Date](https://www.w3schools.com/js/js_dates.asp) for the *LAST_TEST*. The '*DATE_*' prefix designates the data column as a JavaScript Date.  Other supported prefies are '*DATETIME_*' and '*TIME_*'. 
+		*DATE_LAST_TEST* | Contains the [ECMA Script](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format) formatted date for the *LAST_TEST*. The '*DATE_*' prefix designates the data column as a JavaScript Date.  Other supported prefies are '*DATETIME_*' and '*TIME_*'. 
 		*COLOR_INSURANCE_CLAIMS* | Contains pre-defined colors for the *INSURANCE_CLAIMS* column.  The '*COLOR_*' prefix designates the column as a pre-define color value column. Any [CSS Color Name or Hex Color value](https://www.w3schools.com/colors/colors_names.asp) can be used to pre-define a color.
 		*LINK_* | Contains optional HyperLinks associated with *name* column values. At run-time, ***My Data Visualizer*** will append the *name* column value to the *LINK_* column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
 
