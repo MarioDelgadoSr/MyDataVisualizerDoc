@@ -1,4 +1,4 @@
-# My Data Visualizer Documentation (alpha)
+# My Data Visualizer Documentation (V.0.8)
 
 
 # Contents
