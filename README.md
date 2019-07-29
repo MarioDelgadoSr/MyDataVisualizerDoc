@@ -30,7 +30,7 @@
 
 ![Screen Shot of My Data Visualizer Body Demo](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerBodyScreenShot.png)
 
-* The quickest work-flow is utilizing a glTF with data in a .csv file.  
+* The quickest work-flow is utilizing a [glTF](https://en.wikipedia.org/wiki/GlTF) with data in a [.csv file](https://en.wikipedia.org/wiki/Comma-separated_values).  
 	* You can use the files described here as a template for your DataVisual that are [uploaded to ***My Data Visualizer***](http://mydatavisualizer.com/demo/).
 		* Data uploaded is parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
 	* Embedded data in the glTF is another work-flow discussed in detail in this documentation.
