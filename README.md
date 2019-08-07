@@ -74,23 +74,72 @@
 		*LAB_ORDERS* |  Lab Order values associated with the *name* attribute values.
 		*DATE_LAST_TEST* | Contains the [ECMA Script](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format) formatted date for the *LAST_TEST*. The '*DATE_*' prefix designates the data column as a JavaScript Date.  Other supported prefies are '*DATETIME_*' and '*TIME_*'. 
 		*COLOR_INSURANCE_CLAIMS* | Contains pre-defined colors for the *INSURANCE_CLAIMS* column.  The '*COLOR_*' prefix designates the column as a pre-define color value column. Any [CSS Color Name or Hex Color value](https://www.w3schools.com/colors/colors_names.asp) can be used to pre-define a color.
-		*LINK_* | Contains optional HyperLinks associated with *name* column values. At run-time, ***My Data Visualizer*** will append the *name* column value to the *LINK_* column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
+		*LINK_* | Contains optional HyperLinks associated with *name* column values. At run-time, ***My Data Visualizer*** will append the *name* column value to the '*LINK_*' column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
 
 ## Background
+
+### General
 
 ***My Data Visualizer*** was developed to add an important *dimension* to data visualization; [WebGL 3D graphics](https://blogg.bekk.no/webgl-and-data-visualisation-379d8252ea51?gi=fe1368432a8f).
 
 With ***My Data Visualizer*** data is contextualized on a 3D graphic representation of the real-world objects that the data is associated with.
 
-For example, the following screen shot visualizes the relative passenger revenue for a flight for each assigned seat location:
+For example, the following screen shot visualizes passenger revenue for a flight for each assigned seat location:
 
 ![Screen Shot of My Data Visualizer Plane Visualization](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerPlaneScreenShot.png)
 
 
+### Technical
+
+The following two [Computational Essays](https://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/) hosted on [ObservableHQ.com](https://observablehq.com/@observablehq/introduction-to-notebooks) provide a technical background on the design approach for ***My Data Visualizer***:
+
 * [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and 
 * [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets using a glTF with Embedded Data](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets-u)
 
-are two [Computational Essays](https://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/) hosted on [ObservableHQ.com](https://observablehq.com/@observablehq/introduction-to-notebooks) that provide a background on the design approach for ***My Data Visualizer***.
+
+## Requirements
+
+***My Data Visualizer*** requires:
+
+* **Data** (measures and dimensions) following a set of simple specifications;
+* **WebGL 3D** Graphic with addressable [material(s)](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) for the graphic's sub-components that will be visualized.
+
+
+#### Data
+
+The data to be visualized can be in either:
+
+* A [.csv file](https://en.wikipedia.org/wiki/Comma-separated_values) or  
+* Embedded in the [glTF file](https://github.com/KhronosGroup/glTF/tree/master/specification/) that describes the WebGL 3D graphic itself.
+
+* The [Body.csv](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv) is an example of the data associated with the [*Body.gltf*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.gltf)file:
+
+		name | INSURANCE_CLAIMS | DOCTOR_VISITS | LAB_ORDERS | DATE_LAST_TEST | COLOR_INSURANCE_CLAIMS | LINK_
+		-------|-------|-------|-------|-------|-------|-------
+		Brain | 27000 | 3 | 0 | 2019-02-01T00:00 | green | http://www.bing.com/search?q=
+		Heart | 234000 | 11 | 6 | 12019-06-09T00:00 | red | http://www.bing.com/search?q=
+		Kidneys | 14500 | 5 | 1 | 2019-08-01T00:00 | yellow | http://www.bing.com/search?q=
+
+* In contrast, [BodyEmbeddedData.gltf](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/BodyEmbeddedData.gltf) illustrates the embedded data scenario with referencing one of the several [extras](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#reference-extras) sections associated with the individual meshes:
+
+<pre style="background-color: gainsboro;"> 
+	"extras": {
+					"LINK_": "http://www.bing.com/search?q=",			
+					"COLOR_INSURANCE_CLAIMS": "green",
+					"DATE_LAST_TEST": "2019-02-01T00:00",
+					"DOCTOR_VISITS": 3.0,
+					"INSURANCE_CLAIMS": 27000.0,
+					"LAB_ORDERS": 0.0
+				}
+
+</pre>
+
+**Note**: 
+	
+* The data specifications for the free/demonstration version of ***My Data Visualizer*** are more restrictive than those described in the [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and the business version.
+* Specifically, the attribute used to match/join the data to the visual objects is the [*name*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#indices-and-names) attribute associated with each individual [mesh](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) that is the target of a visualization.
+* Refer back to the [Quick Start](#Quick-Start) for a specific example of this with *name* attribute referenced in both the data and glTF file.
+
 
 
 ## Built With
