@@ -119,7 +119,7 @@ Brain | 27000 | 3 | 0 | 2019-02-01T00:00 | green | http://www.bing.com/search?q=
 Heart | 234000 | 11 | 6 | 12019-06-09T00:00 | red | http://www.bing.com/search?q=
 Kidneys | 14500 | 5 | 1 | 2019-08-01T00:00 | yellow | http://www.bing.com/search?q=
 
-	* In contrast, [BodyEmbeddedData.gltf](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/BodyEmbeddedData.gltf) illustrates the embedded data scenario with referencing one of the several [extras](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#reference-extras) sections associated with the individual meshes:
+* In contrast, [BodyEmbeddedData.gltf](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/BodyEmbeddedData.gltf) illustrates the embedded data scenario with referencing one of the several [extras](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#reference-extras) sections associated with the individual meshes:
 
 <pre style="background-color: gainsboro;"> 
 	"extras": {
