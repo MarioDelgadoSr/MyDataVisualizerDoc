@@ -86,7 +86,6 @@ For example, the following screen shot visualizes the relative passenger revenue
 
 ![Screen Shot of My Data Visualizer Plane Visualization](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerPlaneScreenShot.png)
 
-MyDataVisualizerPlaneScreenShot.png
 
 * [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and 
 * [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets using a glTF with Embedded Data](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets-u)
