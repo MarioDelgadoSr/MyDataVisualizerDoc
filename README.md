@@ -160,14 +160,14 @@ The github repository [***Python Script to Add Blender Custom Properties From CS
 
 The following table summarizes the data attributes supported by ***My Data Visualizer***:
 
-		Attribute | Description
-		-------|------------
-		*name* | The value associated with the *name* attribute must match the glTF mesh *names*.
-		*dimension* |  An attribute identifier for a dimension(s).  Examples: 'Part Number', 'Part_Number', 'PartNumber'
-		*measure*  | An attribute identifier for a measure(s). Example: 'Number of Complaints', 'Number_of_Complaints', 'NumberOfComplaints'
-		*COLOR_dimension, COLOR_measure* |  An indentifier with the '*COLOR_*' prefix designates an pre-define color attribute for a given *measure* or *dimension*.  Values can be any [CSS color name](https://www.w3schools.com/colors/colors_names.asp) or [hex triple](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) value.
-		*DATE_dimension, DATETIME_dimension, TIME_dimension* | An attriute identifier for an [ECMA Script](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format) formatted date specified as a *dimension* . The '*DATE_*', '*DATETIME_*' and '*TIME_*' prefixes designate the data as a JavaScript Date.  
-		*LINK_* | An attribute identifier for optional HyperLinks associated with *name* column values. At run-time, ***My Data Visualizer*** will append the *name* column value to the '*LINK_*' column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
+Attribute | Description
+-------|------------
+*name* | The value associated with the *name* attribute must match the glTF mesh *names*.
+*dimension* |  An attribute identifier for a dimension(s).  Examples: 'Part Number', 'Part_Number', 'PartNumber'
+*measure*  | An attribute identifier for a measure(s). Example: 'Number of Complaints', 'Number_of_Complaints', 'NumberOfComplaints'
+*COLOR_dimension, COLOR_measure* |  An indentifier with the '*COLOR_*' prefix designates an pre-define color attribute for a given *measure* or *dimension*.  Values can be any [CSS color name](https://www.w3schools.com/colors/colors_names.asp) or [hex triple](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) value.
+*DATE_dimension, DATETIME_dimension, TIME_dimension* | An attriute identifier for an [ECMA Script](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format) formatted date specified as a *dimension* . The '*DATE_*', '*DATETIME_*' and '*TIME_*' prefixes designate the data as a JavaScript Date.  
+*LINK_* | An attribute identifier for optional HyperLinks associated with *name* column values. At run-time, ***My Data Visualizer*** will append the *name* column value to the '*LINK_*' column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
 
 
 #### WebGL 3D Graphic
