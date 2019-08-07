@@ -10,7 +10,7 @@
 	* [General](#General)
 	* [Technical](#Technical)
 * [Requirements](#Requirements)	
-	* [Data][#Data]
+	* [Data](#Data)
 	* [WebGL 3D Graphic](WebGL-3D-Graphic)
 * [Built With](#Built-With)
 * [Creator](#Creator)
