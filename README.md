@@ -114,11 +114,11 @@ The data to be visualized can be in either:
 
 * The [Body.csv](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv) is an example of the data associated with the [*Body.gltf*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.gltf)file:
 
-		name | INSURANCE_CLAIMS | DOCTOR_VISITS | LAB_ORDERS | DATE_LAST_TEST | COLOR_INSURANCE_CLAIMS | LINK_
-		-------|-------|-------|-------|-------|-------|-------
-		Brain | 27000 | 3 | 0 | 2019-02-01T00:00 | green | http://www.bing.com/search?q=
-		Heart | 234000 | 11 | 6 | 12019-06-09T00:00 | red | http://www.bing.com/search?q=
-		Kidneys | 14500 | 5 | 1 | 2019-08-01T00:00 | yellow | http://www.bing.com/search?q=
+name | INSURANCE_CLAIMS | DOCTOR_VISITS | LAB_ORDERS | DATE_LAST_TEST | COLOR_INSURANCE_CLAIMS | LINK_
+-------|-------|-------|-------|-------|-------|-------
+Brain | 27000 | 3 | 0 | 2019-02-01T00:00 | green | http://www.bing.com/search?q=
+Heart | 234000 | 11 | 6 | 12019-06-09T00:00 | red | http://www.bing.com/search?q=
+Kidneys | 14500 | 5 | 1 | 2019-08-01T00:00 | yellow | http://www.bing.com/search?q=
 
 * In contrast, [BodyEmbeddedData.gltf](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/BodyEmbeddedData.gltf) illustrates the embedded data scenario with referencing one of the several [extras](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#reference-extras) sections associated with the individual meshes:
 
