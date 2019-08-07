@@ -11,6 +11,7 @@
 	* [Technical](#Technical)
 * [Requirements](#Requirements)	
 	* [Data](#Data)
+		* [Data Attributes](#Data-Attributes)
 	* [WebGL 3D Graphic](#WebGL-3D-Graphic)
 * [Built With](#Built-With)
 * [Creator](#Creator)
@@ -75,7 +76,7 @@
 		-------|------------
 		*name* | The values in the *name* column match the glTF mesh *names*.
 		*INSURANCE_CLAIMS* |  Insurance Claim values associated with the *name* attribute values.
-		*DOCTOR_VISITS*,  | Doctor visits associated with the *name* attribute value.
+		*DOCTOR_VISITS*  | Doctor visits associated with the *name* attribute value.
 		*LAB_ORDERS* |  Lab Order values associated with the *name* attribute values.
 		*DATE_LAST_TEST* | Contains the [ECMA Script](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format) formatted date for the *LAST_TEST*. The '*DATE_*' prefix designates the data column as a JavaScript Date.  Other supported prefies are '*DATETIME_*' and '*TIME_*'. 
 		*COLOR_INSURANCE_CLAIMS* | Contains pre-defined colors for the *INSURANCE_CLAIMS* column.  The '*COLOR_*' prefix designates the column as a pre-define color value column. Any [CSS Color Name or Hex Color value](https://www.w3schools.com/colors/colors_names.asp) can be used to pre-define a color.
@@ -154,6 +155,19 @@ The github repository [***Python Script to Add Blender Custom Properties From CS
 * The data specifications for the free/demonstration version of ***My Data Visualizer*** are more restrictive than those described in the [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and the business version.
 * Specifically, the attribute used to match/join the data to the visual objects is the [*name*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#indices-and-names) attribute associated with each individual [mesh](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) that is the target of a visualization.
 * Refer back to the [Quick Start](#Quick-Start) for a specific example of this with *name* attribute referenced in both the data and glTF file.
+
+##### Data Attributes
+
+The following table summarizes the data attributes supported by ***My Data Visualizer***:
+
+		Attribute | Description
+		-------|------------
+		*name* | The value associated with the *name* attribute must match the glTF mesh *names*.
+		*dimension* |  An attribute identifier for a dimension(s).  Examples: 'Part Number', 'Part_Number', 'PartNumber'
+		*measure*  | An attribute identifier for a measure(s). Example: 'Number of Complaints', 'Number_of_Complaints', 'NumberOfComplaints'
+		*COLOR_dimension, COLOR_measure* |  An indentifier with the '*COLOR_*' prefix designates an pre-define color attribute for a given *measure* or *dimension*.  Values can be any [CSS color name](https://www.w3schools.com/colors/colors_names.asp) or [hex triple](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) value.
+		*DATE_dimension, DATETIME_dimension, TIME_dimension* | An attriute identifier for an [ECMA Script](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format) formatted date specified as a *dimension* . The '*DATE_*', '*DATETIME_*' and '*TIME_*' prefixes designate the data as a JavaScript Date.  
+		*LINK_* | An attribute identifier for optional HyperLinks associated with *name* column values. At run-time, ***My Data Visualizer*** will append the *name* column value to the '*LINK_*' column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
 
 
 #### WebGL 3D Graphic
