@@ -11,6 +11,7 @@
 	* [Technical](#Technical)
 * [Requirements](#Requirements)	
 	* [Data](#Data)
+		* [Special Note](#Special-Note)
 		* [Data Attributes](#Data-Attributes)
 	* [WebGL 3D Graphic](#WebGL-3D-Graphic)
 * [Built With](#Built-With)
@@ -150,9 +151,9 @@ The github repository [***Python Script to Add Blender Custom Properties From CS
 	[![Adding Custom Properties to Objects](https://img.youtube.com/vi/MWkoviO_xkY/0.jpg)](https://www.youtube.com/watch?v=MWkoviO_xkY)
 
 
-**Note**: 
+##### Special Note
 	
-* The data specifications for the free/demonstration version of ***My Data Visualizer*** are more restrictive than those described in the [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and the business version.
+* The [data specifications](#Data-Attributes) for the free/demonstration version of ***My Data Visualizer*** are more restrictive than those described in the [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and the business version.
 * Specifically, the attribute used to match/join the data to the visual objects is the [*name*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#indices-and-names) attribute associated with each individual [mesh](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) that is the target of a visualization.
 * Refer back to the [Quick Start](#Quick-Start) for a specific example of this with *name* attribute referenced in both the data and glTF file.
 
