@@ -114,8 +114,8 @@ The following two [Computational Essays](https://blog.stephenwolfram.com/2017/11
 Both of these components can be uploaded to the [demonstration application](http://mydatavisualizer.com/demo/) as one of the following:
 
 * A .gltf file with its associated .csv file (see [Quick Start](#Quick-Start) for an example);
-* A .gltf file with embedded data; (see the [repository]((https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
-* a .glb file with the embedded data (see the [repository]((https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
+* A .gltf file with embedded data; (see the [repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
+* a .glb file with the embedded data (see the [repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
 
 #### Data
 
