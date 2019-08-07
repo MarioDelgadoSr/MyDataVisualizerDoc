@@ -107,7 +107,7 @@ The following two [Computational Essays](https://blog.stephenwolfram.com/2017/11
 
 ***My Data Visualizer*** requires:
 
-* **Data** (measures and dimensions) following a set of simple specifications;
+* **Data** (measures and dimensions) following a set of simple [specifications]((#Data-Attributes));
 * **WebGL 3D** Graphic with addressable [material(s)](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) for the graphic's sub-components that will be visualized.
 
 
