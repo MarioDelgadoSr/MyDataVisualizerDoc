@@ -144,6 +144,13 @@ The github repository [***Python Script to Add Blender Custom Properties From CS
 	[![Adding Custom Properties to Objects](https://img.youtube.com/vi/MWkoviO_xkY/0.jpg)](https://www.youtube.com/watch?v=MWkoviO_xkY)
 
 
+**Note**: 
+	
+* The data specifications for the free/demonstration version of ***My Data Visualizer*** are more restrictive than those described in the [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and the business version.
+* Specifically, the attribute used to match/join the data to the visual objects is the [*name*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#indices-and-names) attribute associated with each individual [mesh](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) that is the target of a visualization.
+* Refer back to the [Quick Start](#Quick-Start) for a specific example of this with *name* attribute referenced in both the data and glTF file.
+
+
 #### WebGL 3D Graphic
 
 * The WebGL 3D Graphic is described in a [glTF file with the 2.0 specifications](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0).  
@@ -151,16 +158,11 @@ The github repository [***Python Script to Add Blender Custom Properties From CS
 	* Note that each individual mesh (object sub-component) **must have a distinct material associated with it**.  If this condition is not satisfied, the visualization logic can not *drive* sub-component visualizations.
     * In addition, the glTF file **must have** any [buffers](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#binary-data-storage) and [images](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#images) for the .gltf file referenced with embedded [Data URIs](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#uris).
 		* This is a [specific export option with the Blender glTF exporter](https://github.com/KhronosGroup/glTF-Blender-Exporter/blob/master/docs/user.md#embedding).
-	* This video is a tutorial for exporting glTF with Blender:
+	* This video is a tutorial for exporting a glTF with Blender:
 	
 		[![Exporting GLTF file using Blender](https://img.youtube.com/vi/xfUZ1GLG68o/0.jpg)](https://www.youtube.com/watch?v=xfUZ1GLG68o)
 
 
-**Note**: 
-	
-* The data specifications for the free/demonstration version of ***My Data Visualizer*** are more restrictive than those described in the [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and the business version.
-* Specifically, the attribute used to match/join the data to the visual objects is the [*name*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#indices-and-names) attribute associated with each individual [mesh](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) that is the target of a visualization.
-* Refer back to the [Quick Start](#Quick-Start) for a specific example of this with *name* attribute referenced in both the data and glTF file.
 
 
 
