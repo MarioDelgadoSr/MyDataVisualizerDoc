@@ -140,7 +140,8 @@ Kidneys | 14500 | 5 | 1 | 2019-08-01T00:00 | yellow | http://www.bing.com/search
 
 	* This video also provides step-by-step instructions on adding [Custom Properties](https://docs.blender.org/manual/en/latest/data_system/custom_properties.html) to Blender that are then embedded as extras when a glTF file is exported.
 
-<iframe width="560" height="315" width="924" height="520" src="https://www.youtube.com/embed/MWkoviO_xkY" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[![Adding Custom Properties to Objects](https://img.youtube.com/vi/MWkoviO_xkY/0.jpg)](https://www.youtube.com/watch?v=MWkoviO_xkY)
 
 
 **Note**: 
