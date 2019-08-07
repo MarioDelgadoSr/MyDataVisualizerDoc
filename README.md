@@ -41,7 +41,7 @@
 
 * The quickest work-flow is utilizing a [glTF](https://en.wikipedia.org/wiki/GlTF) with data in a [.csv file](https://en.wikipedia.org/wiki/Comma-separated_values).  
 	* You can use the files described here as a template for your DataVisual that are [uploaded to ***My Data Visualizer***](http://mydatavisualizer.com/demo/).
-		* Data that is uploaded is parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
+		* Data that are uploaded are parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
 	* [Embedded data](#Data) in the glTF is another work-flow discussed in detail in this documentation.
 * To get started, you will need a .glTF (or .glb file) and a .csv file with the data that will be visualized.
 * The [documentation repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository/Tutorial) has a working example for the *Body* *DataVisual* you can use to model your own *DataVisual*s. 
@@ -117,7 +117,7 @@ Both of these components can be uploaded (see screen shot) to the [demonstration
 * A .gltf file with embedded data; (see the [repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
 * A .glb file with the embedded data (see the [repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
 
-Data that is uploaded is parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
+Data that are uploaded are parsed with the [D3 AutoType parser](https://github.com/d3/d3-dsv#autoType).
 
 ![Screen Shot of My Data Visualizer Upload](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerUploadScreenShot.png)
 
@@ -164,7 +164,7 @@ Kidneys | 14500 | 5 | 1 | 2019-08-01T00:00 | yellow | http://www.bing.com/search
 	
 * The [data specifications](#Data-Attributes) for the free/demonstration version of ***My Data Visualizer*** are more restrictive than those described in the [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and the business version.
 * Specifically, the attribute used to match/join the data to the visual objects is the [*name*](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#indices-and-names) attribute associated with each individual [mesh](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#meshes) that is the target of a visualization.
-* Refer back to the [Quick Start](#Quick-Start) for a specific example of this with *name* attribute referenced in both the data and glTF file.
+* Refer back to the [Quick Start](#Quick-Start) for a specific example of this with the *name* attribute referenced in both the data and glTF file.
 
 ##### Data Attributes
 
