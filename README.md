@@ -6,6 +6,7 @@
 * [Introduction](#Introduction)
 	* [Demonstration Site](#Demonstration-Site)
 * [Quick Start](#Quick-Start)
+* [Background](#Background)
 * [Built With](#Built-With)
 * [Creator](#Creator)
 * [License](#License)
@@ -14,6 +15,7 @@
 ## Introduction
 
 * ***My Data Visualizer*** is the easiest way to visualize your ***low-data-volume-high-information-value*** [WebGL](https://www.khronos.org/webgl/) 3D visuals.
+* It's an excellent framework to visualize measures and dimensions from [Internet of Things](https://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand/#6372cfeb1d09) visual assets.
 * The application implements the [DataVisual](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) design pattern.
 * ***My Data Visualizer*** is a 100% Client-side application; your data is not uploaded to a server or the cloud.
 
@@ -74,7 +76,22 @@
 		*COLOR_INSURANCE_CLAIMS* | Contains pre-defined colors for the *INSURANCE_CLAIMS* column.  The '*COLOR_*' prefix designates the column as a pre-define color value column. Any [CSS Color Name or Hex Color value](https://www.w3schools.com/colors/colors_names.asp) can be used to pre-define a color.
 		*LINK_* | Contains optional HyperLinks associated with *name* column values. At run-time, ***My Data Visualizer*** will append the *name* column value to the *LINK_* column value and instruct the browser to navigate to that [url](https://en.wikipedia.org/wiki/URL).	
 
-<!-- ## Concepts -->
+## Background
+
+***My Data Visualizer*** was developed to add an important *dimension* to data visualization; [WebGL 3D graphics](https://blogg.bekk.no/webgl-and-data-visualisation-379d8252ea51?gi=fe1368432a8f).
+
+With ***My Data Visualizer*** data is contextualized on a 3D graphic representation of the real-world objects that the data is associated with.
+
+For example, the following screen shot visualizes the relative passenger revenue for a flight for each assigned seat location:
+
+![Screen Shot of My Data Visualizer Plane Visualization](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerPlaneScreenShot.png)
+
+MyDataVisualizerPlaneScreenShot.png
+
+* [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) and 
+* [DataVisual (Data + Visual) Design Pattern for WebGL 3D Assets using a glTF with Embedded Data](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets-u)
+
+are two [Computational Essays](https://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/) hosted on [ObservableHQ.com](https://observablehq.com/@observablehq/introduction-to-notebooks) that provide a background on the design approach for ***My Data Visualizer***.
 
 
 ## Built With
