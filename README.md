@@ -139,10 +139,21 @@ Kidneys | 14500 | 5 | 1 | 2019-08-01T00:00 | yellow | http://www.bing.com/search
 * The embedded data scenario involves using a graphical tool that allows you to add the [extras](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#reference-extras) sections to the WebGL 3D graphics.   
 The github repository [***Python Script to Add Blender Custom Properties From CSV File***](https://github.com/MarioDelgadoSr/AddBlenderCustomPropertiesFromCSV) details one possbile approach for developers that use the popular [Blender](https://www.blender.org/) application.
 
-	* This video also provides step-by-step instructions on adding [Custom Properties](https://docs.blender.org/manual/en/latest/data_system/custom_properties.html) to Blender that are then embedded as extras when a glTF file is exported:
+	* This video also provides step-by-step instructions on adding [Custom Properties](https://docs.blender.org/manual/en/latest/data_system/custom_properties.html) to Blender that are then embedded as extras when a [Blender glTF file is exported](https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Import_Export):
 	
 	[![Adding Custom Properties to Objects](https://img.youtube.com/vi/MWkoviO_xkY/0.jpg)](https://www.youtube.com/watch?v=MWkoviO_xkY)
 
+
+#### WebGL 3D Graphic
+
+* The WebGL 3D Graphic is described in a [glTF file with the 2.0 specifications](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0).  
+* Several examples are provided in the documentation [repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository).  
+	* Note that each individual mesh (object sub-component) **must have a distinct material associated with it**.  If this condition is not satisfied, the visualization logic can not *drive* sub-component visualizations.
+    * In addition, the glTF file **must have** any [buffers](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#binary-data-storage) and [images](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#images) for the .gltf file referenced with embedded [Data URIs](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#uris).
+		* This is a [specific export option with the Blender glTF exporter](https://github.com/KhronosGroup/glTF-Blender-Exporter/blob/master/docs/user.md#embedding).
+	* This video is a tutorial for exporting glTF with Blender:
+	
+		[![Exporting GLTF file using Blender](https://img.youtube.com/vi/MWkoviO_xkY/0.jpg)](https://www.youtube.com/watch?v=MWkoviO_xkY)
 
 **Note**: 
 	
