@@ -136,7 +136,8 @@ Kidneys | 14500 | 5 | 1 | 2019-08-01T00:00 | yellow | http://www.bing.com/search
 </pre>
 
 
-* The embedded data scenario involves using a graphical tool that allows you to add the [extras](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#reference-extras) sections to the WebGL 3D graphics.   [Python Script to Add Blender Custom Properties From CSV File](https://github.com/MarioDelgadoSr/AddBlenderCustomPropertiesFromCSV) details one possbile approach for developers that use the popular [Blender](https://www.blender.org/) application.
+* The embedded data scenario involves using a graphical tool that allows you to add the [extras](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#reference-extras) sections to the WebGL 3D graphics.   
+The github repository [***Python Script to Add Blender Custom Properties From CSV File***](https://github.com/MarioDelgadoSr/AddBlenderCustomPropertiesFromCSV) details one possbile approach for developers that use the popular [Blender](https://www.blender.org/) application.
 
 	* This video also provides step-by-step instructions on adding [Custom Properties](https://docs.blender.org/manual/en/latest/data_system/custom_properties.html) to Blender that are then embedded as extras when a glTF file is exported:
 	
