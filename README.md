@@ -158,7 +158,7 @@ The github repository [***Python Script to Add Blender Custom Properties From CS
 
 ##### Data Attributes
 
-The following table summarizes the data attributes supported by ***My Data Visualizer***:
+The following table summarizes the data attributes supported by ***My Data Visualizer*** for data hosted in either a .csv file or embedded within the glTF file:
 
 Attribute | Description
 -------|------------
