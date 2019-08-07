@@ -117,6 +117,9 @@ Both of these components can be uploaded to the [demonstration application](http
 * A .gltf file with embedded data; (see the [repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
 * a .glb file with the embedded data (see the [repository](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
 
+![Screen Shot of My Data Visualizer Upload](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerUploadScreenShot.png)
+
+
 #### Data
 
 The data to be visualized can be in either:
