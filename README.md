@@ -111,6 +111,11 @@ The following two [Computational Essays](https://blog.stephenwolfram.com/2017/11
 * **Data** (measures and dimensions) following a set of simple [specifications](#Data-Attributes);
 * **WebGL 3D** Graphic with addressable [material(s)](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) for the graphic's sub-components that will be visualized.
 
+Both of these components can be uploaded to the [demonstration application](http://mydatavisualizer.com/demo/) as one of the following:
+
+* A .gltf file with its associated .csv file (see [Quick Start](#Quick-Start) for an example);
+* A .gltf file with embedded data; (see the [repository]((https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
+* a .glb file with the embedded data (see the [repository]((https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/tree/master/repository) for several examples).
 
 #### Data
 
