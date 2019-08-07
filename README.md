@@ -153,7 +153,8 @@ The github repository [***Python Script to Add Blender Custom Properties From CS
 		* This is a [specific export option with the Blender glTF exporter](https://github.com/KhronosGroup/glTF-Blender-Exporter/blob/master/docs/user.md#embedding).
 	* This video is a tutorial for exporting glTF with Blender:
 	
-		[![Exporting GLTF file using Blender](https://img.youtube.com/vi/MWkoviO_xkY/0.jpg)](https://www.youtube.com/watch?v=MWkoviO_xkY)
+		[![Exporting GLTF file using Blender](https://img.youtube.com/vi/xfUZ1GLG68o/0.jpg)](https://www.youtube.com/watch?v=xfUZ1GLG68o)
+
 
 **Note**: 
 	
