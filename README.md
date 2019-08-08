@@ -97,7 +97,7 @@
 
 With ***My Data Visualizer*** data is contextualized on a 3D graphic representation of the real-world objects that the data is associated with.
 
-For example, the following screen shot visualizes passenger revenue for a flight for each assigned seat location:
+For example, the following screen shot visualizes passenger revenue on a plane for each assigned seat location:
 
 ![Screen Shot of My Data Visualizer Plane Visualization](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerPlaneScreenShot.png)
 
