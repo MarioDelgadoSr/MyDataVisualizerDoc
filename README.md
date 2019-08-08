@@ -18,8 +18,7 @@
 	* [Data Visual](#Data-Visual)
 	* [Analyzer](#Analyzer)
 		* [Data Grid](#Data-Grid)
-		* [Visualization Scale](#Visualization-Scale)
-		* [Legend](#Legend)
+		* [Visualization Scale/Legend](#Visualization-Scale/Legend)
 	* [Visual Grid](#Visual-Grid)
 * [Built With](#Built-With)
 * [Creator](#Creator)
@@ -243,7 +242,7 @@ Grid Divisions | Sets the number of grid divisions when it is being displayed.
 
 ### Analyzer
 
-The ***Toggle Analyzer*** button toggles the display of the Analyzer panel.  It contains the Data Grid, Visualization Scan and Legend sub panels (see screen shot):
+The ***Toggle Analyzer*** button toggles the display of the Analyzer panel.  It contains the ***Data Grid***, ***Visualization Scale/Legend*** sub panels (see screen shot):
 
 ![Screen Shot of My Data Visualizer ForkLift2](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerForkLiftScreenShot2.png)
 
@@ -257,9 +256,7 @@ The ***Data Grid***:
 * Searches or row selections can be performed on the the ****Data Grid**** to isolate sub-objects in the visual panel.
 * When the ***Visual Grid*** is being displayed, searches in the ***Data Grid** are coordinated with it.
 
-#### Visualization Scale 
-
-#### Legend
+#### Visualization Scale/Legend
 
 The ***Visualization Scale*** and ****Legend*** panels display a color scale selection wheel with its corresponding legend. The triangle in ***Visualization Scale***  panel illustrates the color scale from low to high values.
 
