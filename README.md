@@ -199,7 +199,7 @@ Attribute | Description
 
 ## Analysis
 
-***My Data Visualizer*** has three primary panels used in the Data Visual analysis:
+***My Data Visualizer*** has three primary panels used in the data visualization analysis:
 
 * Data Visual 
 * Analyzer
