@@ -225,6 +225,7 @@ Arrow | Pan
 'c' or 'Esc' | 'C'lear Data Selections
 
 Button | Description
+-------|------------
 GPU Performaance | Displays Graphic Processing Unit (GPU) statistics.
 Reset View | Resets Bird's-eye View.
 Axes | Toggles display of the origin axes associate with the visual.
