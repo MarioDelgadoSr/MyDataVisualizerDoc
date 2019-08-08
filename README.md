@@ -242,7 +242,12 @@ Grid Divisions | Sets the number of grid divisions when it is being displayed.
 
 ### Analyzer
 
-The ***Toggle Analyzer*** button toggles the display of the Analyzer panel.  It contains the ***Data Grid***, ***Visualization Scale/Legend*** sub panels (see screen shot):
+The ***Toggle Analyzer*** button toggles the display of the Analyzer panel.  It contains the ***Data Grid***, ***Visualization Scale/Legend*** sub panels.
+
+In the following screen shot: 
+
+* The *PART* dimension associated with the Forklift visual is selected.
+* A red (low) to green (high) color scale is selected and alphabetically assigned to the individual parts in the legend and visual sub-components.
 
 ![Screen Shot of My Data Visualizer ForkLift2](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerForkLiftScreenShot2.png)
 
