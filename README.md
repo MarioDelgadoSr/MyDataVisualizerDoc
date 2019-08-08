@@ -18,7 +18,7 @@
 	* [Data Visual](#Data-Visual)
 	* [Analyzer](#Analyzer)
 		* [Data Grid](#Data-Grid)
-		* [Visualization Scale/Legend](#Visualization-Scale-Legend)
+		* [Visualization Scale and Legend](#Visualization-Scale-and-Legend)
 	* [Visual Grid](#Visual-Grid)
 * [Built With](#Built-With)
 * [Creator](#Creator)
@@ -256,7 +256,7 @@ The ***Data Grid***:
 * Searches or row selections can be performed on the the ****Data Grid**** to isolate sub-objects in the visual panel.
 * When the ***Visual Grid*** is being displayed, searches in the ***Data Grid** are coordinated with it.
 
-#### Visualization Scale/Legend
+#### Visualization Scale and Legend
 
 The ***Visualization Scale*** and ****Legend*** panels display a color scale selection wheel with its corresponding legend. The triangle in ***Visualization Scale***  panel illustrates the color scale from low to high values.
 
