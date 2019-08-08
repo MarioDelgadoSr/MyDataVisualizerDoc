@@ -263,7 +263,9 @@ The ***Data Grid***:
 
 #### Visualization Scale and Legend
 
-The ***Visualization Scale*** and ***Legend*** panels display a color scale selection wheel with its corresponding legend. The triangle in ***Visualization Scale***  panel illustrates the color scale from low to high values.
+The ***Visualization Scale*** and ***Legend*** panels display a color scale selection wheel with its corresponding legend.  The left mouse button is used to select the desired scale.
+
+The triangle in the ***Visualization Scale***  panel illustrates the color scale from low to high values.
 
 ![Screen Shot of My Data Visualizer ForkLift3](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerForkLiftScreenShot3.png)
 
