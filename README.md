@@ -19,7 +19,7 @@
 	* [Analyzer](#Analyzer)
 		* [Data Grid](#Data-Grid)
 		* [Visualization Scale](#Visualization-Scale)
-		* [Legend])(#Legend)
+		* [Legend](#Legend)
 	* [Visual Grid](#Visual-Grid)
 * [Built With](#Built-With)
 * [Creator](#Creator)
