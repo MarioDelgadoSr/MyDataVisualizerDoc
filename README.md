@@ -207,7 +207,7 @@ Attribute | Description
 
 ### Data Visual
 
-The Data Visual panel displays a 3D rendering of the WebGL graphic.   Several mouse interactions, quick keys and  buttons are available to interact with the visual (see screen shot):
+The ***Data Visual*** panel displays a 3D rendering of the WebGL graphic.   Several mouse interactions, quick keys and  buttons are available to interact with the visual (see screen shot):
 
 Mouse Action | Description
 -------|------------
