@@ -14,6 +14,13 @@
 		* [Special Note](#Special-Note)
 		* [Data Attributes](#Data-Attributes)
 	* [WebGL 3D Graphic](#WebGL-3D-Graphic)
+* [Analysis](#Analysis)	
+	* [Data Visual](#Data-Visual)
+	* [Analyzer](#Analyzer)
+		* [Data Grid](#Data-Grid)
+		* [Visualization Scale](#Visualization-Scale)
+		* [Legend])(#Legend)
+	* [Visual Grid](#Visual-Grid)
 * [Built With](#Built-With)
 * [Creator](#Creator)
 * [License](#License)
@@ -190,6 +197,86 @@ Attribute | Description
 	* This video is a tutorial for exporting a glTF with Blender:
 	
 		[![Exporting GLTF file using Blender](https://img.youtube.com/vi/xfUZ1GLG68o/0.jpg)](https://www.youtube.com/watch?v=xfUZ1GLG68o)
+
+## Analysis
+
+**My Data Visualizer*** has three primary panels used in the Data Visual analysis:
+
+* Data Visual 
+* Analyzer
+* Visual Grid
+
+### Data Visual
+
+The Data Visual panel displays a 3D rendering of the WebGL graphic.   Several mouse interactions, quick keys and  buttons are available to interact with the visual (see screen shot):
+
+Mouse Action | Description
+-------|------------
+Left | Rotate
+Scroll | Zoom
+Right | Pan
+Left Double-Click| Toggle search isolation of an object. 
+CtrlKey + Left | Select an object and navigate link(s).  If a link is associate wth an object, a selection drop will be displayed allowing navigation to the designated address (see screen shot).
+
+Key | Description
+-------|------------
+Arrow | Pan
+'b' | 'B'ird's-eye View/Rotate 
+'c' or 'Esc' | 'C'lear Data Selections
+
+Button | Description
+GPU Performaance | Displays Graphic Processing Unit (GPU) statistics.
+Reset View | Resets Bird's-eye View.
+Axes | Toggles display of the origin axes associate with the visual.
+Background | A color selection picker for the background color.
+Bounding Box/Color | Toggles disply of a visual bounding box and color selection.
+Camera Field of View | Allows selection of the visual's field of view.
+Polar Angel |  Allows selection of the rotation polar angle.  With a polar angle of 180 degrees, the image can be viewed from underneath.
+Zoom Speed | Controls the scroll zooming speed for a visual.
+Pan Speed | Controls the pan speed.
+Grid/Grid Color | Toggles the display of the visual's grid and its color.
+Center Line Color | Sets the center line color for the grid when it is being displayed.
+Grid Divisions | Sets the number of grid divisions when it is being displayed.
+
+![Screen Shot of My Data Visualizer ForkLift1](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerForkLiftScreenShot1.png)
+
+### Analyzer
+
+The ***Toggle Analyzer*** button toggles the display of the Analyzer panel.  It contains the Data Grid, Visualization Scan and Legend sub panels (see screen shot):
+
+![Screen Shot of My Data Visualizer ForkLift2](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerForkLiftScreenShot2.png)
+
+#### Data Grid 
+
+The ***Data Grid***: 
+
+* Displays the data that visualizes the 3D WebGL graphic.  
+* Selecting a column directs the application to visualize the graphic by either a scale colorization determined by the column's values or preset color assignments.  
+* Selecting the ***Visualize Grid*** button will color visualize the ***Data Grid*** itself.   
+* Searches or row selections can be performed on the the ****Data Grid**** to isolate sub-objects in the visual panel.
+* When the ***Visual Grid*** is being displayed, searches in the ***Data Grid** are coordinated with it.
+
+#### Visualization Scale 
+
+#### Legend
+
+The ***Visualization Scale*** and ****Legend*** panels display a color scale selection wheel with its corresponding legend. The triangle in ***Visualization Scale***  panel illustrates the color scale from low to high values.
+
+![Screen Shot of My Data Visualizer ForkLift3](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerForkLiftScreenShot3.png)
+
+
+### Visual Grid
+
+The ***Visual Grid***:
+
+* Is enabled with the ***Toggle Visual Grid*** button.
+* Displays specific attributes common to all visuals; *name*, *Color* (the original color associated with a mesh), *id*, *x* coordinate, *y* coordinate and *z* coordinate. 
+* Selecting a column directs the application to visualize the graphic by either a scale colorization determined by the column's values or the original color assignments.  
+* Selecting the ***Visualize Grid*** button will color visualize the ***Visual Grid*** itself.   
+* Searches or row selections can be performed on the the ****Visual Grid**** to isolate sub-objects in the visual panel.
+* When the ***Data Grid*** is being displayed, searches in the ***Visual Grid** are coordinated with it.
+ 
+![Screen Shot of My Data Visualizer ForkLift4](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/img/MyDataVisualizerForkLiftScreenShot4.png) 
 
 ## Built With
 
