@@ -18,7 +18,7 @@
 	* [Data Visual](#Data-Visual)
 	* [Analyzer](#Analyzer)
 		* [Data Grid](#Data-Grid)
-		* [Visualization Scale/Legend](#Visualization-Scale/Legend)
+		* [Visualization Scale/Legend](#Visualization-Scale-Legend)
 	* [Visual Grid](#Visual-Grid)
 * [Built With](#Built-With)
 * [Creator](#Creator)
