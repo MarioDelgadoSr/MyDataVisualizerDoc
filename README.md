@@ -130,11 +130,9 @@ Data that are uploaded are parsed with the [D3 AutoType parser](https://github.c
 
 #### Data
 
-The data to be visualized can be in either:
+The data to be visualized can be in either a [.csv file](https://en.wikipedia.org/wiki/Comma-separated_values) or embedded in the [glTF file](https://github.com/KhronosGroup/glTF/tree/master/specification/) that describes the WebGL 3D graphic itself.
 
-* A [.csv file](https://en.wikipedia.org/wiki/Comma-separated_values) or embedded in the [glTF file](https://github.com/KhronosGroup/glTF/tree/master/specification/) that describes the WebGL 3D graphic itself.
-
-	* The [Body.csv](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv) is an example of the data associated with the [*Body.gltf*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.gltf) file:
+* The [Body.csv](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.csv) is an example of the data associated with the [*Body.gltf*](https://github.com/MarioDelgadoSr/MyDataVisualizerDoc/blob/master/repository/Tutorial/Body.gltf) file:
 
 name | INSURANCE_CLAIMS | DOCTOR_VISITS | LAB_ORDERS | DATE_LAST_TEST | COLOR_INSURANCE_CLAIMS | LINK_
 -------|-------|-------|-------|-------|-------|-------
