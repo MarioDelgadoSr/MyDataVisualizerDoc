@@ -304,6 +304,4 @@ The following frameworks and applications were used to build ***My Data Visualiz
 ## License
 
 * [***My Data Visualizer***](http://MyDataVisualizer.com) is free for all non-profit entities.  
-* Businesses and comerical enterprises must purchase a license.  
-	* The license includes access to the ***My Data Visualizer*** JavaScript-based framework; which developers can use to embed data-driven WebGL assets in their applications. 
-
+* Businesses and commercial enterprises are granted a full-use license as long as they make their application freely available to non-profits.
