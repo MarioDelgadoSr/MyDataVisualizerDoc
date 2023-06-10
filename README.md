@@ -291,10 +291,10 @@ The following frameworks and applications were used to build ***My Data Visualiz
 
 * **Mario Delgado**  Github: [MarioDelgadoSr](https://github.com/MarioDelgadoSr)
 * LinkedIn: [Mario Delgado](https://www.linkedin.com/in/mario-delgado-5b6195155/)
-* [***My Data Visualizer***](http://MyDataVisualizer.com): A data visualization application using the [*DataVisual*](https://github.com/MarioDelgadoSr/DataVisual) design pattern.
+* [***My Data Visualizer***](https://mariodelgadosr.github.io/MyDataVisualizer/): A data visualization application using the [*DataVisual*](https://github.com/MarioDelgadoSr/DataVisual) design pattern.
 * Contact: [MyDataVisualizer(at)gmail.com](mailto:MyDataVisualizer@gmail.com). 
 
 ## License
 
-* [***My Data Visualizer***](http://MyDataVisualizer.com) is free for all non-profit entities.  
+* [***My Data Visualizer***](https://mariodelgadosr.github.io/MyDataVisualizer/) is free for all non-profit entities.  
 * Businesses and commercial enterprises are granted a full-use license as long as they make their application freely available to non-profits.
