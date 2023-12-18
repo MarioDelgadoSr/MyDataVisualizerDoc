@@ -26,10 +26,10 @@
 
 ## Introduction
 
-* ***My Data Visualizer*** is the easiest way to visualize your ***low-data-volume-high-information-value*** [WebGL](https://www.khronos.org/webgl/) 3D visuals.
+* [***My Data Visualizer***](https://github.com/MarioDelgadoSr/MyDataVisualizer) is the easiest way to visualize your ***low-data-volume-high-information-value*** [WebGL](https://www.khronos.org/webgl/) 3D visuals.
 * It's an excellent framework to visualize measures and dimensions from [Internet of Things](https://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand/#6372cfeb1d09) visual assets.
 * The application implements the [DataVisual](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) design pattern.
-* ***My Data Visualizer*** is a [100% Client-side application](https://en.wikipedia.org/wiki/Client-side); your data is not uploaded to a server or the cloud.
+* ***My Data Visualizer***](https://github.com/MarioDelgadoSr/MyDataVisualizer) is a [100% Client-side application](https://en.wikipedia.org/wiki/Client-side); your data is not uploaded to a server or the cloud.
 
 ### Demonstration Site	
 
