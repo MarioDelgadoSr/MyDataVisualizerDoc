@@ -29,7 +29,7 @@
 * [***My Data Visualizer***](https://github.com/MarioDelgadoSr/MyDataVisualizer) is the easiest way to visualize your ***low-data-volume-high-information-value*** [WebGL](https://www.khronos.org/webgl/) 3D visuals.
 * It's an excellent framework to visualize measures and dimensions from [Internet of Things](https://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand/#6372cfeb1d09) visual assets.
 * The application implements the [DataVisual](https://observablehq.com/@mariodelgadosr/datavisual-data-visual-design-pattern-for-webgl-3d-assets) design pattern.
-* ***My Data Visualizer***](https://github.com/MarioDelgadoSr/MyDataVisualizer) is a [100% Client-side application](https://en.wikipedia.org/wiki/Client-side); your data is not uploaded to a server or the cloud.
+* [***My Data Visualizer***](https://github.com/MarioDelgadoSr/MyDataVisualizer) is a [100% Client-side application](https://en.wikipedia.org/wiki/Client-side); your data is not uploaded to a server or the cloud.
 
 ### Demonstration Site	
 
@@ -92,9 +92,9 @@
 
 ### General
 
-***My Data Visualizer*** was developed to add an important *dimension* to data visualization; [WebGL 3D graphics](https://blogg.bekk.no/webgl-and-data-visualisation-379d8252ea51?gi=fe1368432a8f).
+[***My Data Visualizer***](https://github.com/MarioDelgadoSr/MyDataVisualizer) was developed to add an important *dimension* to data visualization; [WebGL 3D graphics](https://blogg.bekk.no/webgl-and-data-visualisation-379d8252ea51?gi=fe1368432a8f).
 
-With ***My Data Visualizer*** data is contextualized on a 3D graphic representation of the real-world objects that the data is associated with.
+With [***My Data Visualizer***](https://github.com/MarioDelgadoSr/MyDataVisualizer) data is contextualized on a 3D graphic representation of the real-world objects that the data is associated with.
 
 For example, the following screen shot visualizes passenger revenue on a plane for each assigned seat location:
 
@@ -111,7 +111,7 @@ The following two [Computational Essays](https://blog.stephenwolfram.com/2017/11
 
 ## Requirements
 
-***My Data Visualizer*** requires:
+[***My Data Visualizer***](https://github.com/MarioDelgadoSr/MyDataVisualizer) requires:
 
 * **Data** (measures and dimensions) following a set of simple [specifications](#Data-Attributes);
 * **WebGL 3D** Graphic with addressable [material(s)](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#materials) for the graphic's sub-components that will be visualized.
@@ -191,7 +191,7 @@ Attribute | Description
 
 ## Analysis
 
-***My Data Visualizer*** has three primary panels used in the data visualization analysis:
+[***My Data Visualizer***](https://github.com/MarioDelgadoSr/MyDataVisualizer) has three primary panels used in the data visualization analysis:
 
 * Data Visual 
 * Analyzer
